@@ -1,0 +1,613 @@
+[
+    {
+      "id": 1,
+      "car_name": "Toyota Camry",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 20,
+      "monthly_rent_price": 600,
+      "transmission": "Automatic",
+      "imageUrl":"https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2022TOC020092_1280_01"
+    },
+    {
+      "id": 2,
+      "car_name": "Honda Civic",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 550,
+      "transmission": "Automatic",
+      "imageUrl":"https://imgd.aeplcdn.com/0x0/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80"
+    },
+    {
+      "id": 3,
+      "car_name": "Ford Escape",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 22,
+      "monthly_rent_price": 650,
+      "transmission": "Automatic",
+      "imageUrl":"https://cars.usnews.com/static/images/Auto/izmo/i41643673/2018_ford_escape_angularfront.jpg"
+    },
+    {
+      "id": 4,
+      "car_name": "Chevrolet Malibu",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 19,
+      "monthly_rent_price": 600,
+      "transmission": "Automatic",
+      "imageUrl":"https://images.hgmsites.net/med/2023-chevrolet-malibu-4-door-sedan-1lt-angular-front-exterior-view_100867500_m.jpg"
+    },
+    {
+      "id": 5,
+      "car_name": "Nissan Altima",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 550,
+      "transmission": "Automatic",
+      "imageUrl":"https://res.cloudinary.com/yourmechanic/image/upload/dpr_auto,f_auto,q_auto/v1/article_images/nissan_altima_2012"
+    },
+    {
+      "id": 6,
+      "car_name": "Toyota Prius",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 25,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic",
+      "imageUrl":"https://imgd.aeplcdn.com/642x336/cw/ec/22566/Toyota-Prius-Right-Front-Three-Quarter-90763.jpg?wm=0&q=80"
+    },
+    {
+      "id": 7,
+      "car_name": "Volkswagen Golf",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 580,
+      "transmission": "Automatic",
+      "imageUrl":"https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2021VWC020017_1280_01"
+    },
+    {
+      "id": 8,
+      "car_name": "Ford Fusion",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 620,
+      "transmission": "Automatic",
+      "imageUrl":"https://www.ccarprice.com/products/Ford_Fusion_Active_2023.jpg"
+    },
+    {
+      "id": 9,
+      "car_name": "Hyundai Sonata",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 24,
+      "monthly_rent_price": 670,
+      "transmission": "Automatic",
+      "imageUrl":"https://imgd.aeplcdn.com/1280x720/cw/cars/discontinued/hyundai/sonata-2011-2015.jpg?q=80"
+    },
+    {
+      "id": 10,
+      "car_name": "Kia Optima",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 590,
+      "transmission": "Automatic",
+      "imageUrl":"https://www.iihs.org/cdn-cgi/image/width=636/api/ratings/model-year-images/2906"
+    },
+    {
+      "id": 11,
+      "car_name": "Honda Accord",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 23,
+      "monthly_rent_price": 680,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 12,
+      "car_name": "Mazda 6",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 550,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 13,
+      "car_name": "Subaru Legacy",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 580,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 14,
+      "car_name": "Tesla Model 3",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Electric",
+      "km_per_liter": null,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 15,
+      "car_name": "BMW 3 Series",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 680,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 16,
+      "car_name": "Mercedes-Benz C-Class",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 720,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 17,
+      "car_name": "Audi A4",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 18,
+      "car_name": "Lexus ES",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 24,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 19,
+      "car_name": "Volvo S60",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 650,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 20,
+      "car_name": "Tesla Model S",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Electric",
+      "km_per_liter": null,
+      "monthly_rent_price": 800,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 21,
+      "car_name": "Chevrolet Equinox",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 620,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 22,
+      "car_name": "GMC Terrain",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 640,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 23,
+      "car_name": "Jeep Grand Cherokee",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 670,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 24,
+      "car_name": "Subaru Outback",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 600,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 25,
+      "car_name": "Nissan Rogue",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 610,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 26,
+      "car_name": "Hyundai Tucson",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 630,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 27,
+      "car_name": "Kia Sportage",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 640,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 28,
+      "car_name": "Ford Explorer",
+      "year": 2023,
+      "available_seats": 7,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 690,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 29,
+      "car_name": "Chevrolet Traverse",
+      "year": 2022,
+      "available_seats": 8,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 720,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 30,
+      "car_name": "Dodge Grand Caravan",
+      "year": 2023,
+      "available_seats": 7,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 15,
+      "monthly_rent_price": 670,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 31,
+      "car_name": "Chrysler Pacifica",
+      "year": 2022,
+      "available_seats": 7,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 24,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 32,
+      "car_name": "Toyota RAV4",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 23,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 33,
+      "car_name": "Honda CR-V",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 22,
+      "monthly_rent_price": 680,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 34,
+      "car_name": "Jeep Wrangler",
+      "year": 2023,
+      "available_seats": 4,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 14,
+      "monthly_rent_price": 650,
+      "transmission": "Manual"
+    },
+    {
+      "id": 35,
+      "car_name": "Ford Mustang",
+      "year": 2023,
+      "available_seats": 4,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 15,
+      "monthly_rent_price": 680,
+      "transmission": "Manual"
+    },
+    {
+      "id": 36,
+      "car_name": "Chevrolet Camaro",
+      "year": 2022,
+      "available_seats": 4,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 14,
+      "monthly_rent_price": 670,
+      "transmission": "Manual"
+    },
+    {
+      "id": 37,
+      "car_name": "Porsche 911",
+      "year": 2023,
+      "available_seats": 2,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 12,
+      "monthly_rent_price": 800,
+      "transmission": "Manual"
+    },
+    {
+      "id": 38,
+      "car_name": "BMW 5 Series",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 39,
+      "car_name": "Mercedes-Benz E-Class",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 720,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 40,
+      "car_name": "Audi A6",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 41,
+      "car_name": "Lexus GS",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 23,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 42,
+      "car_name": "Volvo S90",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 680,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 43,
+      "car_name": "Tesla Model X",
+      "year": 2023,
+      "available_seats": 7,
+      "fuel_type": "Electric",
+      "km_per_liter": null,
+      "monthly_rent_price": 850,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 44,
+      "car_name": "Chevrolet Tahoe",
+      "year": 2022,
+      "available_seats": 8,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 720,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 45,
+      "car_name": "Ford Expedition",
+      "year": 2023,
+      "available_seats": 8,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 15,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 46,
+      "car_name": "Dodge Durango",
+      "year": 2022,
+      "available_seats": 7,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 47,
+      "car_name": "Toyota Highlander",
+      "year": 2023,
+      "available_seats": 7,
+      "fuel_type": "Hybrid",
+      "km_per_liter": 26,
+      "monthly_rent_price": 800,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 48,
+      "car_name": "Honda Pilot",
+      "year": 2023,
+      "available_seats": 8,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 17,
+      "monthly_rent_price": 750,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 49,
+      "car_name": "Nissan Pathfinder",
+      "year": 2022,
+      "available_seats": 7,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 16,
+      "monthly_rent_price": 700,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 50,
+      "car_name": "Jeep Compass",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 670,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 51,
+      "car_name": "Subaru Crosstrek",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 640,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 52,
+      "car_name": "Kia Seltos",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 650,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 53,
+      "car_name": "Hyundai Kona",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 620,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 54,
+      "car_name": "Mazda CX-5",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 600,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 55,
+      "car_name": "Volkswagen Tiguan",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 620,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 56,
+      "car_name": "Ford Bronco",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 15,
+      "monthly_rent_price": 680,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 57,
+      "car_name": "Jeep Renegade",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 18,
+      "monthly_rent_price": 640,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 58,
+      "car_name": "Chevrolet Blazer",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 19,
+      "monthly_rent_price": 660,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 59,
+      "car_name": "Nissan Kicks",
+      "year": 2023,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 20,
+      "monthly_rent_price": 670,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 60,
+      "car_name": "Kia Soul",
+      "year": 2022,
+      "available_seats": 5,
+      "fuel_type": "Gasoline",
+      "km_per_liter": 21,
+      "monthly_rent_price": 630,
+      "transmission": "Automatic"
+    }
+  ]
+  

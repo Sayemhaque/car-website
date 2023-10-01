@@ -2,13 +2,13 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export const baseApi = createApi({
     reducerPath: "baseApi",
-    baseQuery: fetchBaseQuery({ baseUrl: '' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'cars.json' }),
     endpoints: (builder) => ({
-        getPokemonByName: builder.query({
+        getCars: builder.query({
             query: () => ``,
         }),
     }),
 })
 
 
-export const {useGetPokemonByNameQuery} = baseApi;
+export const {useGetCarsQuery} = baseApi;

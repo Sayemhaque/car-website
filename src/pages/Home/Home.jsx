@@ -1,12 +1,10 @@
-import { useGetPokemonByNameQuery } from "../../Redux/services/baseApi";
 import Header from "../../components/Header/Header";
-
+import Cars from "./cars/Cars";
 const Home = () => {
-    const {data:pro} = useGetPokemonByNameQuery()
-    console.log(pro)
     return (
-        <section className="bg-indigo-100 h-screen">
+        <section className="bg-indigo-100 min-h-screen">
             <Header/>
+            <Cars/>
         </section>
     );
 };
