@@ -60,8 +60,8 @@ const CarCard = ({ car }) => {
                     <h3 className="text-3xl font-semibold">${monthly_rent_price} <span className="text-lg">/month</span></h3>
                     <FaRegHeart className="text-blue-500 w-9 h-9 rounded-lg bg-blue-400 p-[7px] cursor-pointer bg-opacity-25" />
                     <Button
-                    title="Rent now"
-                    style="bg-blue-400 text-white font-bold px-3 py-1 rounded-md"
+                        title="Rent now"
+                        style="bg-blue-400 text-white font-bold px-3 py-1 rounded-md"
                     />
                 </div>
             </div>

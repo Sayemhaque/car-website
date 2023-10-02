@@ -1,10 +1,11 @@
 import Header from "../../components/Header/Header";
-import Cars from "./cars/Cars";
+import { Outlet } from "react-router-dom";
 const Home = () => {
     return (
-        <section className="bg-indigo-100 min-h-screen">
+        <section className="bg-indigo-100 min-h-screen ">
             <Header/>
-            <Cars/>
+            <Outlet/>
+           
         </section>
     );
 };
