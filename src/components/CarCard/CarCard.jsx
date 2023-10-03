@@ -3,7 +3,7 @@
 import { FaUserFriends, FaGasPump, FaRegHeart } from "react-icons/fa";
 import { PiSteeringWheelBold } from "react-icons/pi";
 import { IoIosSpeedometer } from "react-icons/io";
-import Button from "../Button/Button";
+import TakeRent from "../Rent/TakeRent";
 
 const CarCard = ({ car }) => {
     const { imageUrl, car_name, year, available_seats, fuel_type, transmission, km_per_liter, monthly_rent_price } = car
@@ -59,10 +59,7 @@ const CarCard = ({ car }) => {
                     {/* per month rent price */}
                     <h3 className="text-3xl font-semibold">${monthly_rent_price} <span className="text-lg">/month</span></h3>
                     <FaRegHeart className="text-blue-500 w-9 h-9 rounded-lg bg-blue-400 p-[7px] cursor-pointer bg-opacity-25" />
-                    <Button
-                        title="Rent now"
-                        style="bg-blue-400 text-white font-bold px-3 py-1 rounded-md"
-                    />
+                    <TakeRent rentCar={car}/>
                 </div>
             </div>
         </div>
