@@ -33,7 +33,14 @@ const carSlice = createSlice({
         },
         removeRentItem: (state, action) => {
             const itemId = action.payload;
-            state.rentCars = state.rentCars.filter(car => car.id !== itemId)
+            state.rentCars = state.rentCars.filter(car => car.id !== itemId) 
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Deleted Successfully',
+                showConfirmButton: false,
+                timer: 1500
+              })
         },
         addToFavourite: (state, action) => {
             const favCar = action.payload;
