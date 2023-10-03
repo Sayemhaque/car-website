@@ -28,14 +28,19 @@ You can add cars to your rental list by clicking the "Rent Now" button on the ca
 
 CarRentalHub allows users to mark their favorite cars by clicking the "Heart" icon. This feature helps users quickly find and revisit their preferred vehicles.
 
+### Search Cars
+
+User can search cars by cars name.It will redirect user to the search page.
+
 ### Navigation
 
 The website offers smooth navigation with the following pages:
 
-- **Home:** The landing page with basic information about CarRentalHub.
+- **/:** The Home page with 6 cars card with header and pagination buttons.
 - **page/:page:** Browse the list of available cars.
 - **Rent:** View and manage your rented cars.
-- **Favorites:** Access your list of favorite cars.
+- **favorite:** Access your list of favorite cars.
+- **Search/carName:** Allow user to search cars by car name.
 
 
 
