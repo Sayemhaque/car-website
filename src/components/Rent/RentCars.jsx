@@ -6,7 +6,7 @@ const RentCars = () => {
     return (
         <div className="mx-12 py-5">
                 <Table/>
-                <Back/>
+               <Back/>
             </div>
     );
 };

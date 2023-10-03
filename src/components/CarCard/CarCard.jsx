@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 
-import { FaUserFriends, FaGasPump, FaRegHeart } from "react-icons/fa";
+import { FaUserFriends, FaGasPump} from "react-icons/fa";
 import { PiSteeringWheelBold } from "react-icons/pi";
 import { IoIosSpeedometer } from "react-icons/io";
 import TakeRent from "../Rent/TakeRent";
+import AddToFav from "../Favourite/AddToFav";
 
 const CarCard = ({ car }) => {
     const { imageUrl, car_name, year, available_seats, fuel_type, transmission, km_per_liter, monthly_rent_price } = car
@@ -58,8 +59,10 @@ const CarCard = ({ car }) => {
                 <div className="flex justify-between items-center  py-4">
                     {/* per month rent price */}
                     <h3 className="text-3xl font-semibold">${monthly_rent_price} <span className="text-lg">/month</span></h3>
-                    <FaRegHeart className="text-blue-500 w-9 h-9 rounded-lg bg-blue-400 p-[7px] cursor-pointer bg-opacity-25" />
+                    <div className="flex items-center gap-2">
+                    <AddToFav favCar={car}/>
                     <TakeRent rentCar={car}/>
+                    </div>
                 </div>
             </div>
         </div>
