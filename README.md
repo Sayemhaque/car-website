@@ -2,6 +2,10 @@
 
 CarRentalHub is a web application that allows users to browse and rent cars online. This project is built using React, Redux, React Router DOM, and Tailwind CSS, providing an interactive and user-friendly car rental experience.
 
+# Live Demo
+
+![Live Demo](https://www.example.com)
+
 ## Technologies Used
 
 - React
@@ -33,13 +37,5 @@ The website offers smooth navigation with the following pages:
 - **Rent:** View and manage your rented cars.
 - **Favorites:** Access your list of favorite cars.
 
-
-## Usage
-
-- Browse available cars on the "Cars" page.
-- Click on a car to view its details.
-- Add cars to your rental list using the "Add to Rent" button.
-- Mark your favorite cars with the "Add to Favorites" button.
-- Navigate between pages using the navigation bar.
 
 

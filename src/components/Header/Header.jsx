@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import FilterOptions from "../FilterOptions/FilterOptions";
 import SearchInput from "../search/SearchInput";
 import { useSelector } from "react-redux";
 
@@ -10,7 +9,7 @@ const Header = () => {
             {/* search input */}
             <SearchInput />
             {/* filters */}
-            <FilterOptions />
+            {/* <FilterOptions /> */}
             <Link to='rent'>
                 <div className={`relative`}>
                     <p>Rent</p>
