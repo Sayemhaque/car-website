@@ -4,12 +4,14 @@ import Cars from "../pages/Home/cars/Cars";
 import SearchItems from "../pages/SearchItems/SearchItems";
 import RentCars from "../components/Rent/RentCars";
 import FavouriteCars from "../components/Favourite/FavouriteCars";
+import NotFoundPage from "../components/NotFound/NotFoundPage";
 
 
 export const router = createBrowserRouter([
     {
         path:"/",
         element:<App/>,
+        errorElement:<NotFoundPage/>,
         children:[
             {
                 index:true,
