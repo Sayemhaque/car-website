@@ -10,7 +10,7 @@ const AddToFav = ({favCar}) => {
       dispatch(addToFavourite(favCar))
     }
     return (
-        <FaRegHeart onClick={handeAddToFav} className="text-blue-500 w-9 h-9 rounded-lg bg-blue-400 p-[7px] cursor-pointer bg-opacity-25" />
+        <FaRegHeart onClick={handeAddToFav} className=" w-9 h-9 rounded-lg bg-blue-400 p-[7px] cursor-pointer bg-opacity-25" />
     );
 };
 

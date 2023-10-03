@@ -9,7 +9,7 @@ const RemoveRentItems = ({id}) => {
         dispatch(removeFromList({id,name:"rent"}))
     }
     return (
-        <FaTrash onClick={handleRemove} className="cursor-pointer"/>
+        <FaTrash onClick={handleRemove} className="cursor-pointer text-blue-400"/>
     );
 };
 

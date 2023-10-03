@@ -11,7 +11,7 @@ const RemoveFromFav = ({id}) => {
        
     }
     return (
-        <FaTrash onClick={handleRemove} className="cursor-pointer text-red-300"/>
+        <FaTrash onClick={handleRemove} className="cursor-pointer text-blue-400"/>
     );
 };
 
