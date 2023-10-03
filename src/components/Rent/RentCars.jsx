@@ -1,13 +1,13 @@
 
 import Back from "../Button/Back";
-import Table from "./Table";
+import RentTable from "./RentTable";
 
 const RentCars = () => {
     return (
         <div className="mx-12 py-5">
-                <Table/>
-               <Back/>
-            </div>
+            <RentTable/>
+            <Back />
+        </div>
     );
 };
 
