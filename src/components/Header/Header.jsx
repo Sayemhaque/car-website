@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SearchInput from "../search/SearchInput";
 import { useSelector } from "react-redux";
+import FilterOptions from "../FilterOptions/FilterOptions"
 
 const Header = () => {
     const { rentCars, favouriteCars } = useSelector((state) => state.carSlice)
@@ -9,7 +10,7 @@ const Header = () => {
             {/* search input */}
             <SearchInput />
             {/* filters */}
-            {/* <FilterOptions /> */}
+            <FilterOptions/>
             <Link to='rent'>
                 <div className={`relative`}>
                     <p>Rent</p>
